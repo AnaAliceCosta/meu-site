@@ -1,0 +1,60 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+main {
+    width: 80%;
+    float: right;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
+.bloco {
+    position: abresolute;
+    clear: both;
+    border: 10px solid rgb(252, 155, 252);
+    background-color: rgb(250, 171, 228);
+}
+.bloco h1 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 100%;
+    font-weight: bolder;
+}
+.bloco h2{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.titulo-principal {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+}
+
+
+.conhecimentos ul li {
+    width:50%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+.conhecimentos ul li:nth-child(odd) {
+    float:left;
+  }
+
+#cabecalho{
+    background-color:rgb(243, 180, 243);;
+}
+
+
