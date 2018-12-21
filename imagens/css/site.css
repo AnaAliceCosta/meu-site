@@ -1,44 +1,40 @@
 body {
     font-family: "Crimson Text", "Times New Roman", serif;
-    background-color: #FFFFFF;
+    background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
-    background-image: url(imagens/vista-isometrica-da-mesa-de-escritorio-moderna_23-2147898955.jpg);
-}
-h1 {
-    text-transform: uppercase;
-    font-size: 200%;
-    font-weight: bolder;
-}
-ul{
-    margin:0px;
 }
 
+main {
+    width: 80%;
+    float: right;
+    padding-bottom: 10%;
+    padding-right: 10%;
+}
 .bloco {
     position: abresolute;
     clear: both;
+    border: 10px solid #CDCDCD;
     background-color:#CDCDCD;
 }
-.bloco h2 {
+.bloco h1 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-size: 100%;
     font-weight: bolder;
-    color:#000000;
-    background-color:#FF8B87;
-    border-bottom: 2px solid #000000;
+    color:#FFFFFF;
+    background-color:#FF1CAE;
 }
-.bloco h3{
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    font-size: 90%;
-    font-weight: bold;
-}
-
-.bloco h4{
+.bloco h2{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-size: 80%;
     font-weight: bold;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: bolder;
+}
 
 .titulo-principal {
     text-align: center;
@@ -47,15 +43,20 @@ ul{
     padding: 25px;
     border-bottom: 10px solid #000;
 }
-.empresa{
-    padding-top:5px;
-    
-}
 
+
+.conhecimentos ul li {
+    width:50%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+.conhecimentos ul li:nth-child(odd) {
+    float:left;
+  }
 
 #cabecalho{
     background-color:#CDCDCD;
 }
-
 
 
