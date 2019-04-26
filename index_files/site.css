@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Handlee', cursive;
@@ -26,20 +27,28 @@ body{
     font-size: 3rem;
 }
 .contato{
-    margin-top:1rem;
     text-align: center;
 
 }
+.contato__lista{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
 .contato a{
     text-decoration: none;
+}
+.habilidades{
+    padding: 15px;
 }
 .habilidades__lista{
     list-style-type: none;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .habilidades__item {
-    margin: 2px;
+    margin: 1rem;
 }
 .habilidades__item figcaption{
     text-align: center;
