@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+.cabecalho{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.cabecalho__foto{
+    margin:10vh auto;
+    height: 30vh;
+    border-radius: 50%;
+}
+.cabecalho__nome{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 3rem;
+}
+.rosa{
+    background-color: #f2a5b9;
+}
+
+.azul{
+    background-color: #5acff0;
+}
+.branco{
+    background-color: #ffffff;
+}
