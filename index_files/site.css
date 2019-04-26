@@ -2,11 +2,16 @@
     margin:0;
     padding:0;
 }
+body{
+    font-family: 'Handlee', cursive;
+    background-color:#FFF9F9;
+}
 .cabecalho{
     width:100vw;
     height:100vh;
     display:flex;
     flex-direction: column;
+    background-color: #5acff0;
 }
 
 .cabecalho__foto{
@@ -20,6 +25,43 @@
     color: #ffffff;
     font-size: 3rem;
 }
+.contato{
+    margin-top:1rem;
+    text-align: center;
+
+}
+.contato a{
+    text-decoration: none;
+}
+.habilidades__lista{
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+}
+.habilidades__item {
+    margin: 2px;
+}
+.habilidades__item figcaption{
+    text-align: center;
+
+}
+.habilidades__item img{
+    width:75px;
+}
+
+
+
+
+
+.centralizada{
+    width:95%;
+    margin: 0 auto;
+}
+.negrito{
+    font-weight: bolder;
+
+}
+
 .rosa{
     background-color: #f2a5b9;
 }
@@ -28,5 +70,5 @@
     background-color: #5acff0;
 }
 .branco{
-    background-color: #ffffff;
+    background-color:#FFF9F9;
 }
