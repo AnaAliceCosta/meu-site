@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Handlee', cursive;
+    font-family: 'Roboto', cursive;
     background-color:#FFF9F9;
 }
 .cabecalho{
@@ -40,6 +40,9 @@ body{
 }
 .habilidades{
     padding: 15px;
+}
+.habilidades h2{
+    font-family: 'Handlee', cursive;
 }
 .habilidades__lista{
     list-style-type: none;
