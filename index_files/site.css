@@ -7,6 +7,9 @@ body{
     font-family: 'Roboto', cursive;
     background-color:#FFF9F9;
 }
+ul{
+    list-style-type: none;
+}
 .cabecalho{
     width:100vw;
     height:100vh;
@@ -33,7 +36,7 @@ body{
 .contato__lista{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    list-style-type: none;
+
 }
 .contato a{
     text-decoration: none;
@@ -41,11 +44,11 @@ body{
 .habilidades{
     padding: 15px;
 }
-.habilidades h2{
+h2{
     font-family: 'Handlee', cursive;
 }
 .habilidades__lista{
-    list-style-type: none;
+
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -60,9 +63,22 @@ body{
 .habilidades__item img{
     width:75px;
 }
+.cursos{
+    padding:15px;
 
-
-
+}
+.cursos__lista{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cursos__item{
+    min-width: 240px;
+    margin-top: 10px;
+    border-style: dotted;
+    border-color: #f2a5b9;
+    text-align: center;
+}
 
 
 .centralizada{
