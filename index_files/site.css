@@ -10,6 +10,9 @@ body{
 ul{
     list-style-type: none;
 }
+li{
+    margin-top:1rem;
+}
 .cabecalho{
     width:100vw;
     height:100vh;
@@ -41,9 +44,7 @@ ul{
 .contato a{
     text-decoration: none;
 }
-.habilidades{
-    padding: 15px;
-}
+
 h2{
     font-family: 'Handlee', cursive;
 }
@@ -63,25 +64,27 @@ h2{
 .habilidades__item img{
     width:75px;
 }
-.cursos{
-    padding:15px;
 
-}
 .cursos__lista{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.cursos__item{
+.item{
     min-width: 240px;
     margin-top: 10px;
     border-style: dotted;
     border-color: #f2a5b9;
     text-align: center;
 }
+.rodape{
+    text-align: center;
+    color:#FFF9F9;
+}
 
 
 .centralizada{
+    padding: 15px;
     width:95%;
     margin: 0 auto;
 }
