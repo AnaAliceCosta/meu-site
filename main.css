@@ -1,31 +1,3 @@
-@charset "UTF-8";
-
-body {
-    margin: 0;
-    font-family: 'Questrial', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color:#3a144d;
-}
-
-h1 {color:#7E459B;
-    font-size: 30px;
-}
-
-h2 {color:#3a144d;
-    font-size: 22px;
-}
-
-header {
-    background-color: #7E459B;
-    min-height: 20px;
-    text-align: center;
-    margin-top: 0px; 
-    padding: 10px 0px 0px 10px;
-    font-family: 'Questrial', sans-serif;
-}
 
 #boasvindas{
     background-color:#fff;
@@ -83,48 +55,7 @@ header {
 }
 
 
-#sobre{
-    
-    background-color: #e2ccd8; /*cor de fundo*/
-    padding: 40px;
-     
-}
 
-
-#hobbies{
-    
-    background-color: #fff; /*cor de fundo*/
-    padding: 40px;
-    
-     
-}
-
-.icones{
-    text-align: center;
-}
-
-.hobbies li {
-    display: inline-block;
-}
-
-
-/* inicio do estilo footer */
-footer {
-    background-color: #3a144d;
-    min-height: 20px;
-    text-align: center;
-    margin-top: 0px; 
-    padding: 10px 0px 10px 0px;
-    font-family: 'Questrial', sans-serif;
-    
-}
-
-
-footer p {
-    color: #fff;
-    text-align: center;
-    font-size: 13px;
-}
 .lista-sites{
     display:flex;
     flex-wrap:wrap;
